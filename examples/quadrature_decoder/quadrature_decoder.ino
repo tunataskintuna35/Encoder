@@ -38,7 +38,7 @@
     in the sketch to read the encoder.
 */
 
-Quadrature_encoder<0,1> encoder(Board::uno);
+Quadrature_encoder<PB0,PB1> encoder(Board::uno);
 
 void setup() {
   Serial.begin(115200);
